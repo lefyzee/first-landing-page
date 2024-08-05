@@ -2,6 +2,7 @@ body {
     font-family:'Times New Roman', Times, serif;
 }
 
+/* Header */
 ul {
     list-style-type: none;
     display: flex;
@@ -19,16 +20,58 @@ a {
 
 
 .header-logo {
-    height: 72px;
     color: white;
     font-size: 32px;
     padding: 0 16px;
     font-weight: bold;
+    display: flex;
 }
 
 .header {
     display: flex;
     justify-content: space-between;
-    padding: 16px;
     background-color: #1f2937;
+}
+/*End of header */
+/* Start of hero section */
+.hero {
+    background-color: #1f2937;
+    font-size: 48px;
+    font-weight: bolder;
+    color: #f9faf8;
+}
+
+.hero-sub {
+    background-color: #1f2937;
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+button {
+    background-color: #3882F6;
+    color: white;
+    padding: 7px 14px;
+    width: 100px;
+}
+
+.sign {
+    border: none
+}
+
+.hero-pic {
+    width:auto;
+}
+/*End of hero section */
+/* Start of Information */
+
+.information-head {
+    font-size: 36px;
+    font-weight: 900;
+    color: #1F2937;
+}
+
+.inpo {
+    font-size: 16px;
+    font-weight: lighter;
+    color: black;
 }
